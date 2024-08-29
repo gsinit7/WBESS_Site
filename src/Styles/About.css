@@ -1,0 +1,32 @@
+.About {
+    max-width: 100vw;
+}
+
+.AboutIntro {
+    background-color: var(--secondary);
+    color: #fff;
+
+    width: 100vw;
+    text-align: center;
+    padding: 32px 18px;
+}
+
+.LeadershipPage {
+    padding: 32px;
+    text-align: center;
+
+}
+
+#leadershiptitle {
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+#title {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+#subtext {
+    font-size: 18px;
+    font-weight: 400;
+}

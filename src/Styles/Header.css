@@ -1,0 +1,52 @@
+.Header {
+        display: grid;
+        grid-template-columns: 25% 75%;
+
+        background-color: var(--body-background);
+}
+.Mode {
+        color: var(--mode);
+        height: 24px;
+        width: 24px;
+}
+.Tabs {
+        padding: 36px;
+}
+
+.Logo {
+        cursor: pointer;
+
+        background-color: var(--primary);
+
+        color: #fff;
+        font-weight: 600;
+
+        padding: 9px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: wrap;        
+}
+
+.Socials, .Pages, .Mode {
+        float: right;
+}
+
+#logo {
+        width: 54px;
+        height: 54px;
+}
+
+#socials {
+        margin-left: 12px;
+        margin-right: 12px;
+}
+#pages {
+        cursor: pointer;
+        color: var(--title);
+
+        margin-left: 18px;
+        margin-right: 18px;
+}

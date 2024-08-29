@@ -1,0 +1,6 @@
+.Leadership {
+    flex-wrap: wrap;
+    display: flex;
+
+    justify-content: center;
+}
