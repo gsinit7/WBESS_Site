@@ -20,6 +20,8 @@
 #leadershiptitle {
     font-size: 36px;
     margin-bottom: 36px;
+
+    color: var(--title);
 }
 #title {
     font-size: 54px;

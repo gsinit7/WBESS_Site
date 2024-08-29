@@ -2,8 +2,9 @@
   --body-background: #F8F7E7;
   --mode: #EF8354;
   --title: #000;
-  --primary: #E72311;
+  --primary: #F13030;
   --secondary: #0CA851;
+  --tertiary: #aaff3b;
 }
 
 body {
@@ -30,13 +31,14 @@ code {
   --title: #fff;
   --primary: #0CA851;
   --secondary: #D1B82F;
+  --tertiary: #f2f38e;
 }
 
 [data-theme='light'] {
   --body-background: #F8F7E7;
   --mode: #EF8354;
   --title: #000;
-  --primary: #E72311;
+  --primary: #F13030;
   --secondary: #0CA851;
-
+  --tertiary: #aaff3b;
 }

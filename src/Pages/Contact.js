@@ -1,6 +1,28 @@
+import React, { useRef } from 'react';
+import emailjs, { send } from '@emailjs/browser';
 
 export default function Contact() {
-    return (
+        const form = useRef();
+
+        const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+        .sendForm('service_r8gjn6e', 'template_lhlhljz', form.current, {
+                publicKey: 'Pzn0PZhkKa6NQecgc',
+        })
+        .then(
+                () => {
+                        alert("Your email was sent successfully!")
+                        console.log('Email sent successfully');
+                },
+                (error) => {
+                        alert("Your email failed to send. Please try again later.")
+                        console.log('Failed to send email.', error.text);
+                },
+        );
+        };
+        return (
             <>
                 <div className="Contact" id="Contact" href="#Contact Us">
                     <div className="Image">
@@ -11,7 +33,7 @@ export default function Contact() {
 
                             <h3 id="contactLabel">Contact:</h3>
                             <p id="ourEmail">By Email: </p>
-                            <form className="Form" >
+                            <form className="Form" ref={form} onSubmit={sendEmail}>
                                     <div id="fname">
                                             <label>First Name:</label>
                                             <input type="text" name="fname" />
@@ -39,5 +61,5 @@ export default function Contact() {
                     </div>
                 </div>
             </>
-    );
+        );
 }               

@@ -22,11 +22,12 @@ input[type=text], input[type=email],textarea:focus {
     height: 90vh;
     display: grid;
     grid-template-columns: 5% 90% 5%;
-    margin-bottom: 18px;
+    margin-bottom: 36px;
 }
 
 .IntroSection {
-    background-image: url('../Img/IMG_7753.jpg');
+
+    background-image: url('../Img/group.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:scroll;  
@@ -64,6 +65,8 @@ input[type=text], input[type=email],textarea:focus {
 }
 
 #intro {
+    opacity: 1;
+
     color: #fff;
     grid-area: 1 / 1 span 1 / span 1;
 

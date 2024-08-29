@@ -6,7 +6,7 @@ export default function Membership() {
             <div id="Membership" >
                 <div className="JoinIntro">
                     <p>Interested?</p>
-                    <p id="subtext">Sign Up  <a href="https://mynsbe.nsbe.org/s/joinprocess" target="_blank">Here</a></p>
+                    <p id="subtext">Sign Up  <a id="joinLink" href="https://mynsbe.nsbe.org/s/joinprocess" target="_blank">Here</a></p>
                 </div>
             </div>
         </>
