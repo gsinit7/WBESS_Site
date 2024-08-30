@@ -21,7 +21,7 @@ export default function Leadership() {
                 <Card id='eboard' image={Wilfred} name="Wilfred Shereni" title="President"/>
                 <Card id='eboard' image={Zuheb} name="Zuheb Ibrahim" title="Vice President"/>
                 <Card id='eboard' image={Christian} name="Christian Robinson" title="Treasurer"/>
-                <Card id='eboard' image={Marco} name="Marco A" title="Secretary"/>
+                <Card id='eboard' image={Marco} name="Marco Assam" title="Secretary"/>
                 <Card id='eboard' image={Kamila} name="Kamila Patris" title="Pre-Collegiate Initiative Chair"/>
                 <Card id='eboard' image={George} name="George Walker" title="Academic Excellence Chair"/>
                 <Card id='eboard' image={Mulu} name="Mulu Yosief" title="Social Chair"/>
