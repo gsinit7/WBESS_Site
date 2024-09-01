@@ -8,7 +8,7 @@ export default function Contact() {
         e.preventDefault();
 
         emailjs
-        .sendForm('service_r8gjn6e', 'template_lhlhljz', form.current, {
+        .sendForm('service_imoq0dq', 'template_lhlhljz', form.current, {
                 publicKey: 'Pzn0PZhkKa6NQecgc',
         })
         .then(
