@@ -1,0 +1,9 @@
+@media only screen and (max-width: 800px) {
+    .Image {
+        display: none;
+    }
+
+    .contactForm {
+        width: 83vw;
+    }
+}

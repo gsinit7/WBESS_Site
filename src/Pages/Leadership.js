@@ -10,11 +10,14 @@ import Mulu from '../Img/mulu.png'
 import George from '../Img/George.jpeg'
 import Marco from '../Img/Marco.jpeg'
 import Aiden from '../Img/Aiden.jpeg'
+import Julius from '../Img/Julius.jpeg'
+import Marie from '../Img/Marie.jpeg'
+import Joceyln from '../Img/Joceyln.jpeg'
 
 import '../Styles/Leadership.css'
 
 
-export default function Leadership() {
+export  function Leadership() {
     return (
         <>
             <div className="Leadership">
@@ -27,6 +30,19 @@ export default function Leadership() {
                 <Card id='eboard' image={Mulu} name="Mulu Yosief" title="Social Chair"/>
                 <Card id='eboard' image={Jordan} name="Jordan Edwards" title="Social Chair"/>
                 <Card id='eboard' image={Aiden} name="Aiden Williams" title="Webmaster Chair"/>
+            </div>
+        </>
+    )
+}
+
+export function Chairs() {
+    return (
+        <>
+            <div className="Chairs">
+                    <Card id='eboard' image={Joceyln} name="Joceyln York" title="Senator"/>
+                    <Card id='eboard' image={Julius} name="Julius Nurse" title="Outreach Chair"/>
+                    <Card id='eboard'  name="Kofo Aminu" title="Fundraising Chair"/>
+                    <Card id='eboard' image={Marie} name="Marie Jobe" title="Volunteer Chair"/>
             </div>
         </>
     )

@@ -27,7 +27,18 @@
         justify-content: center;
         align-items: center;
         align-content: center;
-        flex-direction: wrap;        
+        flex-direction: wrap;     
+
+        min-width: fit-content;
+        min-height: fit-content;
+        
+        
+}
+
+.Logo::after {
+        content: "";
+        clear: both;
+        display: table;
 }
 
 .Socials, .Pages, .Mode {

@@ -1,6 +1,7 @@
 import '../Styles/About.css'
 
-import Leadership from './Leadership'
+import {Leadership, Chairs} from './Leadership'
+
 
 export default function About() {
     return (
@@ -14,6 +15,8 @@ export default function About() {
                     <div className="LeadershipPage">
                         <h1 id="leadershiptitle">Executive Board</h1>
                         <Leadership />
+                        <h1 id="leadershiptitle">Chairmen</h1>
+                        <Chairs />
                     </div>
                  </div>   
             </>

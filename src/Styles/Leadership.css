@@ -4,3 +4,10 @@
 
     justify-content: center;
 }
+
+.Chairs {
+    flex-wrap: wrap;
+    display: flex;
+
+    justify-content: center;
+}
