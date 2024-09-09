@@ -13,6 +13,7 @@ import Aiden from '../Img/Aiden.jpeg'
 import Julius from '../Img/Julius.jpeg'
 import Marie from '../Img/Marie.jpeg'
 import Joceyln from '../Img/Joceyln.jpeg'
+import Kofo from '../Img/Kofo.jpg'
 
 import '../Styles/Leadership.css'
 
@@ -41,7 +42,7 @@ export function Chairs() {
             <div className="Chairs">
                     <Card id='eboard' image={Joceyln} name="Joceyln York" title="Senator"/>
                     <Card id='eboard' image={Julius} name="Julius Nurse" title="Outreach Chair"/>
-                    <Card id='eboard'  name="Kofo Aminu" title="Fundraising Chair"/>
+                    <Card id='eboard' image={Kofo} name="Kofo Aminu" title="Fundraising Chair"/>
                     <Card id='eboard' image={Marie} name="Marie Jobe" title="Volunteer Chair"/>
             </div>
         </>
