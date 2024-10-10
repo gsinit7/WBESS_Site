@@ -1,0 +1,18 @@
+.Calendar {
+    background-color: var(--mode);
+
+    padding: 3vw 9vh;
+    text-align: center;
+}
+
+#calendar {
+    width: 80vw;
+    height: 100vh;
+}
+
+#calendarTitle {
+    color: #fff;
+
+    font-size: 6vh;
+    font-weight: 600;     
+}
