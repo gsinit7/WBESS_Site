@@ -14,6 +14,7 @@ import Julius from '../Img/Julius.jpeg'
 import Marie from '../Img/Marie.jpeg'
 import Joceyln from '../Img/Joceyln.jpeg'
 import Kofo from '../Img/Kofo.jpg'
+import Wynton from '../Img/Wynton.jpeg'
 
 import '../Styles/Leadership.css'
 
@@ -31,6 +32,9 @@ export  function Leadership() {
                 <Card id='eboard' image={Mulu} name="Mulu Yosief" title="Social Chair"/>
                 <Card id='eboard' image={Jordan} name="Jordan Edwards" title="Social Chair"/>
                 <Card id='eboard' image={Aiden} name="Aiden Williams" title="Webmaster Chair"/>
+                <Card id='eboard' image={Joceyln} name="Joceyln York" title="Senator"/>
+                <Card id='eboard' image={Wynton} name="Wynton Wright" title="Senator"/>
+
             </div>
         </>
     )
@@ -40,7 +44,6 @@ export function Chairs() {
     return (
         <>
             <div className="Chairs">
-                    <Card id='eboard' image={Joceyln} name="Joceyln York" title="Senator"/>
                     <Card id='eboard' image={Julius} name="Julius Nurse" title="Outreach Chair"/>
                     <Card id='eboard' image={Kofo} name="Kofo Aminu" title="Fundraising Chair"/>
                     <Card id='eboard' image={Marie} name="Marie Jobe" title="Volunteer Chair"/>
