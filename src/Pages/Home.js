@@ -17,7 +17,8 @@ export default function Home() {
                                 <Contact />
                         </a>
                         <a name='calendar'>
-                                <Calendar />
+                                {//*<Calendar />
+                                }
                         </a>
                         <a name='membership'>
                                 <Membership />
