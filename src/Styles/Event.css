@@ -1,0 +1,73 @@
+p {
+    margin: 15px;
+}
+.Event{
+    margin: 8px;
+    display: grid;
+    grid-template-columns: 6% auto  6%;
+    
+    border: 2px solid;
+
+    width: 70vw;
+
+    cursor: pointer;
+    
+}
+
+.eventContent {
+    display: flex;
+    flex-direction: right;
+    flex-wrap: wrap;
+}
+
+.eventName {
+    margin-top: 3vh;
+    margin-right: 2vw;
+}
+
+.eventProps{
+    float: left;
+}
+
+.Time {
+    display: grid;
+    grid-template-columns: 5% auto;
+}
+
+.Location {
+    display: grid;
+    grid-template-columns: 5% auto; 
+}
+
+
+
+#gallery {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400;
+    background-color: var(--secondary);
+    box-shadow: 24;
+    padding: 19px;   
+}
+
+#eventName {
+font-size: 3vh;
+font-weight: 800;
+}
+
+#eventProps{
+    margin-top: 2vh;
+}
+
+#day{
+    font-size: 3vh;
+    font-weight: 400;
+}
+
+#date{
+    font-size: 5vh;
+    font-weight: 600;
+}
+

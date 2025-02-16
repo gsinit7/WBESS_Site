@@ -1,0 +1,27 @@
+.Events{
+    margin: 18px;
+}
+#title{
+    text-align: center;
+}
+
+#id{
+    justify-content: center;
+}
+
+.Febuary{
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.January {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#month{
+    font-size: 5vh;
+    font-weight: 500;
+}

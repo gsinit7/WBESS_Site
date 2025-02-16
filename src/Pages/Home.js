@@ -3,6 +3,7 @@ import '../Styles/Home.css'
 import Contact from './Contact'
 import Membership from './Membership'
 import Calendar from './Calendar';
+import Events from './Events';
 
 export default function Home() {
         return (
@@ -15,6 +16,9 @@ export default function Home() {
                         </div>
                         <a name='contact'>
                                 <Contact />
+                        </a>
+                        <a name='events'>
+                                <Events />
                         </a>
                         <a name='calendar'>
                                 {//*<Calendar />
