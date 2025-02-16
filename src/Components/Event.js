@@ -26,20 +26,20 @@ export default function Event(props){
                     <p id='day'>{props.day}</p>
                     <p id='date'>{props.date}</p>
                 </div>
-
                 <div className="eventContent">
                     <div className="eventName">
                         <p id='eventName'>{props.eventName}</p>
                     </div>
                     <div className="stackedProps">
-                        <div className="Time">
-                            <FontAwesomeIcon id="eventProps" icon={faClock} /> 
-                            <p id='time'>{props.time}</p>
-                        </div>
                         <div className="Location">
                             <FontAwesomeIcon id="eventProps" icon={faHouse} /> 
                             <p id='location'>{props.location}</p>
                         </div>
+                        <div className="Time">
+                            <FontAwesomeIcon id="eventProps" icon={faClock} /> 
+                            <p id='time'>{props.time}</p>
+                        </div>
+   
                     </div>
                 </div>
                 
