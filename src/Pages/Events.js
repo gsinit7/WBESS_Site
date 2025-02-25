@@ -11,6 +11,7 @@ export default function Events() {
                     {/*<p id="month">March</p>*/}
                     <p id="month">Febuary</p>
                     <div className="Febuary">
+                        <Event id='event' day="Wed" date="26" eventName="InterPro Professional Developemnt Presentation" time="6:00PM" location="2255 Engineering Hall"/>
                         <Event id='event' day="Thu" date="20" eventName="Meet The Professional" time="6:00PM" location="Tripp Commons"/>
                         <Event id='event' day="Thu" date="13" eventName="Heritage Trivia Night" time="5:30PM" location="1413 Cheney Room Engineering Hall"/>
                         <Event id='event' day="Tue" date="11" eventName="3D Printing & laser Cutting Valentines Workshop" time="4:00PM" location="Makerspace, Wendt Commons"/>

@@ -38,6 +38,8 @@ input[type=text], input[type=email],textarea:focus {
 
     text-align: center;
     padding-top: 45vh;
+
+    user-select: none;
 }
 
 .Image {

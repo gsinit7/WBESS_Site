@@ -15,7 +15,7 @@ export default function Event(props){
 
     return (
         <>
-            <div className="Event">
+            <div className="Event" >
                 <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description" >
                     <div id='gallery'>
                         <h1>Picture Gallery</h1>
@@ -44,7 +44,7 @@ export default function Event(props){
                 </div>
                 
                 <Button className="photoGalleryButton" onClick={handleOpen}> 
-                        <FontAwesomeIcon  id="enterModal" icon={faImage} /> 
+                        <FontAwesomeIcon  id="enterModal" icon={faImage} size="lg"/> 
                 </Button> 
             </div>
         </>
