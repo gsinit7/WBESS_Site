@@ -1,3 +1,4 @@
+
 .Leadership {
     flex-wrap: wrap;
     display: flex;
@@ -5,9 +6,18 @@
     justify-content: center;
 }
 
+.Leadership img {
+    border-radius: 90px;
+
+}
 .Chairs {
     flex-wrap: wrap;
     display: flex;
 
     justify-content: center;
+}
+
+.Chairs img {
+    border-radius: 90px;
+
 }

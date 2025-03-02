@@ -1,9 +1,7 @@
 import '../Styles/Membership.css'
 
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
 
@@ -28,7 +26,7 @@ export default function Membership() {
                     <div id='modal'>
                         <p id='howtotitle'>How to Sign Up</p>
                         <ul className='signup'>
-                            <li id='list'>1. Click <a id='link' href='https://mynsbe.nsbe.org/s/joinprocess' target="_blank">this</a> link and select 'Collegiate Member'. Scroll to bottom of the page and hit next</li>
+                            <li id='list'>1. Click <a id='link' href='https://mynsbe.nsbe.org/s/joinprocess' target="_blank" rel='noreferrer'>this</a> link and select 'Collegiate Member'. Scroll to bottom of the page and hit next</li>
                             <li id='list'>2. You will be brought to a login screen, click create account and fill in your info to create your account</li>
                             <li id='list'>3. After creating your account, you should be brought to a join process page, continue to fill in your information</li>
                             <li id='list'>4. Now you should be at, the Chapter and Education page. Fill in the chapter selection with country as 'United States', Location as 'Wisconsin', and Chapter as 'Wisconsin Black Engineering Student Society'. Fill out the Education section with your information</li>

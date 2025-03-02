@@ -4,6 +4,7 @@ import Contact from './Contact'
 import Membership from './Membership'
 import Calendar from './Calendar';
 import Events from './Events';
+import Stories from './Stories'
 
 export default function Home() {
         return (
@@ -23,6 +24,9 @@ export default function Home() {
                         <a name='calendar'>
                                 {//*<Calendar />
                                 }
+                        </a>
+                        <a name='stories'>
+                                <Stories />
                         </a>
                         <a name='membership'>
                                 <Membership />

@@ -1,0 +1,25 @@
+.Stories {
+
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.StoriesIntro {
+    background-color: var(--primary );
+    color: #fff;
+
+    width: 100vw;
+    text-align: center;
+    padding: 32px 18px;
+}
+
+.StoriesCards {
+    padding: 32px;
+
+}
+
+#succform{
+    opacity: 50%;
+    color: var(--tertiary);
+}

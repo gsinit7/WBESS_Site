@@ -1,0 +1,33 @@
+
+
+.Story {
+    width: fit-content;
+    height: fit-content;
+
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.StoryText {
+    margin-top: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 18px;
+
+
+}
+
+#companyimage {
+    align-content: center;
+}
+
+
+#name {
+    font-weight: 700;
+    margin: 0;
+}
+
+#desc {
+    opacity: 70%;
+    margin: 0;
+}
