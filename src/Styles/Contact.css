@@ -1,24 +1,10 @@
 @media only screen and (max-width: 50vw) {
     .Image {
         display: none;
-        max-width: 50vw
     }
 
     .contactForm {
         width: 83vw;
-        background-repeat: none;
 
     }
-}
-.Image {
-    max-width: 50vw;
-    background-repeat: none;
-    display: flex;
-    flex-direction: row;
-}
-
-#img{
-    max-width: 50vw;
-    width: 50vw;
-    background-repeat: none; 
 }
