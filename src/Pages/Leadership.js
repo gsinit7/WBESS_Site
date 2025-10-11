@@ -1,8 +1,8 @@
 import Card from '../Components/Card'
 import Moon from '../Img/Moon.svg'
 
-import Wilfred from '../Img/wilfred.jpeg'
-import Zuheb from '../Img/zuheb.jpeg'
+import Wilfred from '../Img/BoardPix25-26/Wilfred.jpeg'
+import Zuheb from '../Img/BoardPix25-26/Zuheb.jpeg'
 import Christian from '../Img/Christian.jpeg'
 import Kamila from '../Img/Kamila.jpeg'
 import Jordan from '../Img/jordan.jpeg'
