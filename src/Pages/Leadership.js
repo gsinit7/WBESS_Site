@@ -45,8 +45,8 @@ export function Chairs() {
     return (
         <>
             <div className="Chairs">
-                <Card id='eboard' image={Jeremy} name="Jeremy Moore" title="Pre-Collegiate Initiative Chair"/>
-                <Card id='eboard' image={Aaron} name="Aaron Dent" title="Academic & Professional Excellence Chair"/>
+                <Card id='eboard' image={Jeremy} name="Jeremy Moore" title="PCI Chair"/>
+                <Card id='eboard' image={Aaron} name="Aaron Dent" title="APEX Chair"/>
                 <Card id='eboard' image={Mulu} name="Mulu Yosief" title="Social Chair"/>
                 <Card id='eboard' image={Aiden} name="Aiden Williams" title="Social Chair"/>
                 <Card id='eboard' image={Cornell} name="Cornell Stewart" title="Fundraising Chair"/>
