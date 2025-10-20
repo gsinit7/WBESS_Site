@@ -32,19 +32,8 @@ export  function Leadership() {
                 <Card id='eboard' image={Claire} name="Claire Neblett" title="Secretary"/>
                 <Card id='eboard' image={Jaynika} name="Jaynika Williams" title="Senator"/>
                 <Card id='eboard' image={DeMario} name="DeMario Randle" title="Senator"/>
-                <Card id='eboard' image={Wilfred} name="Wilfred Shereni" title="President Emeritus"/>
-                <Card id='eboard' image={Zuheb} name="Zuheb Ibrahim" title="Vice-President Emeritus"/>
-
-
-            </div>
-        </>
-    )
-}
-
-export function Chairs() {
-    return (
-        <>
-            <div className="Chairs">
+                <Card id='eboard' image={Wilfred} name="Wilfred Shereni" title="Emeritus"/>
+                <Card id='eboard' image={Zuheb} name="Zuheb Ibrahim" title="Emeritus"/>
                 <Card id='eboard' image={Jeremy} name="Jeremy Moore" title="PCI Chair"/>
                 <Card id='eboard' image={Aaron} name="Aaron Dent" title="APEX Chair"/>
                 <Card id='eboard' image={Mulu} name="Mulu Yosief" title="Social Chair"/>
@@ -53,7 +42,18 @@ export function Chairs() {
                 <Card id='eboard' image={George} name="George Walker" title="T.O.R.C.H. Chair"/>
                 <Card id='eboard' image={Sinit} name="Sinit Gebrehiwet" title="Webmaster Chair"/>
                 <Card id='eboard' image={Jeremie} name="Jeremie Peart" title="Outreach Chair"/>
+
             </div>
         </>
     )
 }
+
+// export function Chairs() {
+//     return (
+//         <>
+//             <div className="Chairs">
+//                 <Card id='eboard' image={Sinit} name="Sinit Gebrehiwet" title="Webmaster Chair"/>
+//             </div>
+//         </>
+//     )
+// }
