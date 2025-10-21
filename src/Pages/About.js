@@ -1,6 +1,6 @@
 import '../Styles/About.css'
 
-import {Leadership, Chairs} from './Leadership'
+import {Leadership} from './Leadership'
 
 
 export default function About() {
@@ -15,8 +15,8 @@ export default function About() {
                     <div className="LeadershipPage">
                         <h1 id="leadershiptitle">Executive Board</h1>
                         <Leadership />
-                        <h1 id="leadershiptitle">Chairs</h1>
-                        <Chairs />
+                        {/* <h1 id="leadershiptitle">Chairs</h1>
+                        <Chairs /> */}
                     </div>
                  </div>   
             </>
