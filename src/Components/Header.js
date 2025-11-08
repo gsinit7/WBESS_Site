@@ -39,7 +39,11 @@ export default function Header() {
             <div className="Pages">
                 <a id="pages" onClick={()=>{navigate("/home")}}>Home </a>
                 <a id="pages" onClick={()=>{navigate("/about")}}>About </a>
+<<<<<<< HEAD
                 <a id="pages" onClick={()=>{navigate("/gallery")}}>Posts</a> 
+=======
+                {/**<a id="pages" onClick={()=>{navigate("/gallery")}}>Posts</a> */}
+>>>>>>> c02d30f7be8f389c338021838ce34efadd5461ce
                 {/**<a id="pages" onClick={()=>{navigate("/events")}}>Events</a>*/}
             </div>
             <div className="Socials">
