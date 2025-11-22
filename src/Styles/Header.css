@@ -46,13 +46,8 @@
         display: table;
 }
 
-.Socials, .Mode {
+.Socials, .Pages, .Mode {
         float: right;
-}
-
-.Pages {
-        /**float: right; **/
-        display: inline-block;
 }
 
 #logo {
