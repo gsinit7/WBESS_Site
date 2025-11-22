@@ -43,18 +43,18 @@ export default function Header() {
                 {/**<a id="pages" onClick={()=>{navigate("/events")}}>Events</a>*/}
             </div>
             <div className="Socials">
-              <a href="https://www.facebook.com/NSBEWBESS/" target="_blank">
+              {/**<a href="https://www.facebook.com/NSBEWBESS/" target="_blank">
                   <FontAwesomeIcon id="socials" icon={faFacebook} color={'#1877F2'}/>
-              </a>
+              </a> **/}
               <a href="https://www.instagram.com/nsbewbess/" target="_blank">
                   <FontAwesomeIcon id="socials" icon={faInstagram} color={'#E1306C'}/>
               </a>
               <a href="https://www.linkedin.com/in/nsbe-wbess-university-of-wisconsin-madison-577a2a320/" target="_blank">
                   <FontAwesomeIcon id="socials" icon={faLinkedin} color={'#0077B5'}/>
               </a>
-              <a href="https://x.com/nsbe_wbess" target="_blank">
+              {/**<a href="https://x.com/nsbe_wbess" target="_blank">
                   <FontAwesomeIcon id="socials" icon={faXTwitter} color={'black'}/>
-              </a>
+              </a> **/}
             </div>
         </div>
       </div>
