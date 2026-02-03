@@ -17,13 +17,13 @@ export default function Gallery() {
                     <div className="GalleryIntro">
                         <p id="title">Gallery</p>
                         <p id="subtext">Come see what we have been up to!</p>
-                    </div>
+                    </div>                    
                     <div>
                         <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}>
                             <Masonry>
-                                
-                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
-                                   <InstagramEmbed url="https://www.instagram.com/p/DR7wTItjh8R/?img_index=1" width={328} />
+
+                                 <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DR7wTItjh8R/?img_index=1/" width={328} />
                                 </div>
                                 <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
                                    <InstagramEmbed url="https://www.instagram.com/p/DRAQWd0Dv3c/" width={328} />
@@ -45,13 +45,13 @@ export default function Gallery() {
                                 </div>
                                 <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
                                    <InstagramEmbed url="https://www.instagram.com/p/DJSlJ8PvhEU/?img_index=1" width={328} />
-                                </div>
+                                </div> 
                                 
                                 
                             </Masonry>
                         </ResponsiveMasonry>
                     </div>
-                 </div>
+                 </div>   
             </>
     );
-}
+}               
