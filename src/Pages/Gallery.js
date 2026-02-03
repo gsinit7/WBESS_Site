@@ -23,6 +23,7 @@ export default function Gallery() {
                             <Masonry>
                                                                    
                                 <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+<<<<<<< HEAD
                                    <InstagramEmbed url="https://www.instagram.com/p/DQDPkT2joyy/" width={328} />
                                 </div>
                                 <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
@@ -38,6 +39,26 @@ export default function Gallery() {
                                    <InstagramEmbed url="https://www.instagram.com/p/DOmdHzBjgjd/?img_index=1" width={328} />
                                 </div>
                                 <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+=======
+                                   <InstagramEmbed url="https://www.instagram.com/p/DQNK_yPjkRi/?img_index=1" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DQDPkT2joyy/" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DQe9kvOjngo/?img_index=1" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DQNK_yPjkRi/?img_index=1" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DPT6drojuIr/?img_index=1" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DOmdHzBjgjd/?img_index=1" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+>>>>>>> 4032544f3a8e62a4105930ea8bb29c6710e292a9
                                    <InstagramEmbed url="https://www.instagram.com/p/DJSlJ8PvhEU/?img_index=1" width={328} />
                                 </div> 
                                 
