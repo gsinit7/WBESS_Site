@@ -38,19 +38,19 @@ export default function Header() {
               <Within className="Mode" duration={750}/>
             </div>
             <div className="Pages">
-                <a id="pages" onClick={()=>{navigate("/home")}}>Home </a>
-                <a id="pages" onClick={()=>{navigate("/about")}}>About </a>
-                <a id="pages" onClick={()=>{navigate("/gallery")}}>Gallery </a>
+                <p id="pages" onClick={()=>{navigate("/home")}}>Home </p>
+                <p id="pages" onClick={()=>{navigate("/about")}}>About </p>
+                <p id="pages" onClick={()=>{navigate("/gallery")}}>Gallery </p>
                 {/**<a id="pages" onClick={()=>{navigate("/events")}}>Events</a>*/}
             </div>
             <div className="Socials">
               {/**<a href="https://www.facebook.com/NSBEWBESS/" target="_blank">
                   <FontAwesomeIcon id="socials" icon={faFacebook} color={'#1877F2'}/>
               </a> **/}
-              <a href="https://www.instagram.com/nsbewbess/" target="_blank">
+              <a href="https://www.instagram.com/nsbewbess/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon id="socials" icon={faInstagram} color={'#E1306C'}/>
               </a>
-              <a href="https://www.linkedin.com/in/nsbe-wbess-university-of-wisconsin-madison-577a2a320/" target="_blank">
+              <a href="https://www.linkedin.com/in/nsbe-wbess-university-of-wisconsin-madison-577a2a320/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon id="socials" icon={faLinkedin} color={'#0077B5'}/>
               </a>
               {/**<a href="https://x.com/nsbe_wbess" target="_blank">

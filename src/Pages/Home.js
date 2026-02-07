@@ -15,22 +15,22 @@ export default function Home() {
                                         <p id='intro'>Welcome to the Wisconsin Black Engineering Student Society at The University of Wisconsin - Madison!</p>
                                 </div>
                         </div>
-                        <a name='contact'>
+                        <p name='contact'>
                                 <Contact />
-                        </a>
-                        <a name='events'>
+                        </p>
+                        <p name='events'>
                                 <Events />
-                        </a>
-                        <a name='calendar'>
+                        </p>
+                        <p name='calendar'>
                                 {//*<Calendar />
                                 }
-                        </a>
+                        </p>
                         {/* <a name='stories'>
                                 <Stories />
                         </a> */}
-                        <a name='membership'>
+                        <p name='membership'>
                                 <Membership />
-                        </a>
+                        </p>
                      </div>   
                 </>
         );

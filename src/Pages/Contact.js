@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 
 import '../Styles/Contact.css'
 
+import pic from "../Img/ContactImg.jpg"
+
 export default function Contact() {
         const form = useRef();
 
@@ -28,7 +30,7 @@ export default function Contact() {
             <>
                 <div className="Contact" id="Contact" href="#Contact Us">
                     <div className="Image">
-                            <img id="img" src="../Img/ContactImg.jpg" />
+                            <img id="img" src={pic} alt = "Contact Pic" />
                     </div>
                     <div className="contactForm">
                             <h2 id="yap">The Wisconsin Engineering Student Society (NSBE) of The University of Wisconsin - Madison would love to hear from you!</h2>
