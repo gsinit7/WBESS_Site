@@ -2,14 +2,14 @@ import './App.css';
 
 import Header from './Components/Header'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 
 import Home from './Pages/Home'
 import About from './Pages/About'
-import Membership from './Pages/Membership'
+// import Membership from './Pages/Membership'
 import Gallery from './Pages/Gallery'
 import Events from './Pages/Events'
-import Contact from './Pages/Contact'
+// import Contact from './Pages/Contact'
 import NoPage from './Pages/NoPage'
 
 

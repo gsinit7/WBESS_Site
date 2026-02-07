@@ -5,7 +5,7 @@ export default function Card(props){
         <>
             <div className="Card">
                     <div id='image'>
-                        <img id='img' src={props.image} />
+                        <img id='img' src={props.image} alt = {`${props.name} profile photo`}/>
                     </div>
                     <div className="CardText">
                         <p id='name'>{props.name}</p>

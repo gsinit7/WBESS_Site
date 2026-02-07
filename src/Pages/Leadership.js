@@ -1,5 +1,5 @@
 import Card from '../Components/Card'
-import Moon from '../Img/Moon.svg'
+// import Moon from '../Img/Moon.svg'
 
 import Marco from '../Img/BoardPix25-26/Marco.jpeg'
 import Kamila from '../Img/BoardPix25-26/Kamila.jpeg'

@@ -2,7 +2,7 @@ import '../Styles/Home.css'
 
 import Contact from './Contact'
 import Membership from './Membership'
-import Calendar from './Calendar';
+// import Calendar from './Calendar';
 import Events from './Events';
 // import Stories from './Stories'
 

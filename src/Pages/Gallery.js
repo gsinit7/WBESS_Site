@@ -1,11 +1,11 @@
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
-import Card from '../Components/Card'
+// import Card from '../Components/Card'
 /**import Moon from '../Img/Moon.svg'**/
-import axios from 'axios'
+// import axios from 'axios'
 
-import { FacebookProvider, EmbeddedPost } from 'react-facebook';
-import { InstagramEmbed, LinkedInEmbed } from 'react-social-media-embed';
+// import { FacebookProvider, EmbeddedPost } from 'react-facebook';
+import { InstagramEmbed } from 'react-social-media-embed';
 
 import '../Styles/Gallery.css'
 

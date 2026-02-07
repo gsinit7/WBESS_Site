@@ -2,14 +2,15 @@ import '../Styles/Header.css'
 import '../Styles/DarkMode.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
 import "@theme-toggles/react/css/Within.css"
 import { Within } from "@theme-toggles/react"
 
+import logo from "../Img/logo.png"
 
 
 export default function Header() {
@@ -27,7 +28,7 @@ export default function Header() {
     <>
       <div className="Header" id="header">
         <div className="Logo" onClick={()=>{navigate("/home")}}>
-          <img id='logo' src={require("../Img/logo.png")} />
+          <img id='logo' src={logo} alt = "NSBE-WBESS logo" />
           The Wisconsin Black Engineering Student Society
         </div>
         <div className="Tabs">
