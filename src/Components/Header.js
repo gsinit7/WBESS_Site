@@ -15,7 +15,7 @@ import { Within } from "@theme-toggles/react"
 export default function Header() {
   const navigate = useNavigate();
   const switchTheme = () => {
-    if(document.querySelector('body').getAttribute('data-theme') == 'dark') {
+    if(document.querySelector('body').getAttribute('data-theme') === 'dark') {
       document.querySelector('body').setAttribute('data-theme', 'light')
     }
     else {
