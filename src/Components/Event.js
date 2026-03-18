@@ -19,7 +19,7 @@ export default function Event(props){
                 <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description" >
                     <div id='gallery'>
                         <h1>Picture Gallery</h1>
-                        <p>Pictures Coming Soon...</p>
+                        <p>Checkout Gallery Tab!</p>
                     </div>
                 </Modal>
                 <div className="Date">
