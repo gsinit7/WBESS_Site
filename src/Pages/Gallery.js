@@ -22,6 +22,21 @@ export default function Gallery() {
                         <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}>
                             <Masonry>
                                 <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DV4aGJ7jrzw/?img_index=1" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DVUEUTsEp-e/?img_index=1" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DU391r9Drrg/" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DUqlew-jul3/" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
+                                   <InstagramEmbed url="https://www.instagram.com/p/DUYuvR5DiKv/?img_index=1" width={328} />
+                                </div>
+                                <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>
                                    <InstagramEmbed url="https://www.instagram.com/p/DR7wTItjh8R/?img_index=1/" width={328} />
                                 </div>
                                 <div id='post' style={{ display: 'flex', justifyContent: 'center' }}>

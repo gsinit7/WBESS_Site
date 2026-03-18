@@ -9,12 +9,13 @@ export default function Events() {
                  <div className="Events">
                     <p id='title'>Events</p>
                     
-                    <p id="month">October</p>
-                    <div className="October">
-                        <Event id='event' day="Fri" date="3" eventName="GE Healthcare Site-Visit" time="2:30PM" location="GE Healthcare Madison Factory"/>
-                        <Event id='event' day="Fri" date="10" eventName="Findorff Site-Visit" time="2:30PM" location="Center for Black Excellence & Culture"/>
-                        <Event id='event' day="Wed" date="15" eventName="PCI Kick-Off" time="?" location="LaFollette High School"/>
-                        <Event id='event' day="Mon" date="20" eventName="Blood Drive Fundraiser" time="?" location="Library Mall"/>
+                    <p id="month">March</p>
+                    <div className="March">
+                        <Event id='event' day="Tues" date="3" eventName="March General Body Meeting" time="6:000PM" location="Red Gym BCC Classroom"/>
+                        <Event id='event' day="Thurs" date="12" eventName="Challenging the Code" time="6:30PM" location="Witte Classrooms"/>
+                        <Event id='event' day="Mon" date="16" eventName="Women's History Month Social" time="6:00PM" location="Wendt Commons"/>
+                        <Event id='event' day="Wed" date="18" eventName="Heritage Trivia Night" time="6:00PM" location="1227 Engineering Hall"/>
+
                     </div>
                     
                     {/*<p id="month">September</p>
